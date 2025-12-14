@@ -1,18 +1,18 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate /Encoder8to3/d0
-add wave -noupdate /Encoder8to3/d1
-add wave -noupdate /Encoder8to3/d2
-add wave -noupdate /Encoder8to3/d3
-add wave -noupdate /Encoder8to3/d4
-add wave -noupdate /Encoder8to3/d5
-add wave -noupdate /Encoder8to3/d6
-add wave -noupdate /Encoder8to3/d7
-add wave -noupdate /Encoder8to3/a0
-add wave -noupdate /Encoder8to3/a1
-add wave -noupdate /Encoder8to3/a2
+add wave -noupdate /encoder/d0
+add wave -noupdate /encoder/d1
+add wave -noupdate /encoder/d2
+add wave -noupdate /encoder/d3
+add wave -noupdate /encoder/d4
+add wave -noupdate /encoder/d5
+add wave -noupdate /encoder/d6
+add wave -noupdate /encoder/d7
+add wave -noupdate /encoder/a0
+add wave -noupdate /encoder/a1
+add wave -noupdate /encoder/a2
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {27 ps} 0}
+WaveRestoreCursors {{Cursor 1} {3611 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 150
 configure wave -valuecolwidth 100
@@ -28,4 +28,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ps
 update
-WaveRestoreZoom {0 ps} {1 ns}
+WaveRestoreZoom {0 ps} {7280 ps}
